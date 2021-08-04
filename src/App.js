@@ -43,6 +43,7 @@ const tableIcons = {
   ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref} />)
 };
 
+//reqres for data fetching
 const api = axios.create({
   baseURL: `https://reqres.in/api`
 })
